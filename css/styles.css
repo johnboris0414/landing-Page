@@ -34,7 +34,7 @@ html {
 
 body {
   font-family: Inter, Arial, Helvetica, sans-serif;
-  font-size: 2.4rem;
+  font-size: 2rem;
   line-height: 1.5;
   color: var(--color-body);
 }
@@ -659,12 +659,12 @@ a {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 1rem;
+  padding: 1.3rem 1rem 1rem 1rem;
   align-items: center;
 }
 
 .nav__logo {
-  padding: 0;
+  padding: 0 0 0 2rem;
 }
 
 .nav__logo > p {
@@ -672,8 +672,10 @@ a {
   margin-left: 1rem;
   margin-bottom: 0;
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  transform: translateY(5px);
   letter-spacing: 1px;
+  align-self: center;
 }
 
 .nav__logo > a,
@@ -684,6 +686,7 @@ a {
 .nav__list {
   width: 100%;
   margin: 0;
+  padding-top: 1rem;
 }
 
 .nav__item {
@@ -713,6 +716,19 @@ a {
 }
 
 @media screen and (min-width: 768px) {
+  .nav__logo {
+    padding: 1.5rem;
+  }
+
+  .nav__logo > p {
+    font-size: 2.5rem;
+    transform: translateY(0);
+  }
+
+  .nav__list {
+    padding-top: 0;
+  }
+
   .nav__toggler {
     display: none;
   }
@@ -720,7 +736,6 @@ a {
   .nav__list {
     width: auto;
     display: flex;
-    font-size: 1.6rem;
     max-height: 100%;
     opacity: 1;
   }
