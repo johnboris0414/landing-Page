@@ -655,12 +655,17 @@ a {
 /* Navigation Bar */
 
 .nav {
-  background: #000;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 1rem;
   align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav--header {
+  background: #000;
 }
 
 .nav__brand {
