@@ -466,7 +466,7 @@ a {
 }
 
 .quote__author {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 500;
   font-style: normal;
   margin-bottom: 0;
@@ -475,7 +475,7 @@ a {
 .quote__company {
   color: var(--color-headings);
   opacity: 0.4;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-style: normal;
 }
 
@@ -520,8 +520,14 @@ a {
   padding: 3rem;
 }
 
+.testimonial .quote {
+  margin: 2rem 0;
+  font-size: 110%;
+}
+
 .testimonial__image {
   position: relative;
+  margin: 0 3rem;
 }
 
 .testimonial__image > img {
@@ -823,7 +829,6 @@ a {
 
 .block-showcase__image > img {
   width: 100%;
-  padding: 0 4rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -838,6 +843,12 @@ a {
   .block-showcase__image > img {
     width: auto;
     max-width: 700px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .block-showcase__image > img {
+    padding: 0 4rem;
   }
 }
 
