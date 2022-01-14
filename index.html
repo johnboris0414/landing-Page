@@ -28,6 +28,11 @@
     />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="shortcut icon"
+      href="images/speedster.webp"
+      type="image/x-icon"
+    />
   </head>
 
   <body>
@@ -41,9 +46,13 @@
             class="nav__logo"
           />
         </a>
-        <svg class="icon icon--white nav__toggler">
-          <use :href="images/sprite.svg#menu"></use>
-        </svg>
+
+        <img
+          src="/images/menu.svg"
+          alt=""
+          class="icon icon--white nav__toggler"
+        />
+
         <ul class="list nav__list collapsible__content">
           <li class="nav__item"><a href="#">Hosting</a></li>
           <li class="nav__item"><a href="#">VPS</a></li>
@@ -72,7 +81,7 @@
             type="image/png"
             srcset="images/banner.png 1x, images/banner@2x.png 2x"
           />
-          <img src="images/banner.png" alt="" class="hero__image" />
+          <img src="images/banner@2x.webp" alt="" class="hero__image" />
         </picture>
       </div>
     </section>
@@ -94,9 +103,7 @@
           placeholder="Enter domain name here..."
         />
         <button class="btn btn--accent">
-          <svg class="icon icon--white">
-            <use :href="images/sprite.svg#search"></use>
-          </svg>
+          <img src="/images/search.svg" alt="" class="icon" />
           Search
         </button>
       </div>
@@ -189,9 +196,7 @@
       <article class="grid grid--cols-2 feature">
         <div class="feature__content" data-aos="fade-right">
           <span class="icon-container">
-            <svg class="icon icon--primary">
-              <use :href="images/sprite.svg#easy"></use>
-            </svg>
+            <img src="/images/easy.svg" alt="" class="icon icon--primary" />
           </span>
           <h3 class="feature__heading">Super Easy to Use</h3>
           <p>
@@ -209,16 +214,14 @@
             type="image/jpg"
             srcset="images/easy.jpg 1x, images/easy@2x.jpg 2x"
           />
-          <img class="feature__image" src="images/easy@2x.jpg" alt="" />
+          <img class="feature__image" src="images/easy@2x.webp" alt="" />
         </picture>
       </article>
 
       <article class="grid grid--cols-2 feature">
         <div class="feature__content" data-aos="fade-left">
           <span class="icon-container">
-            <svg class="icon icon--primary">
-              <use :href="images/sprite.svg#computer"></use>
-            </svg>
+            <img src="/images/computer.svg" alt="" class="icon icon--primary" />
           </span>
           <h3 class="feature__heading">Simply Fast Websites</h3>
           <p>
@@ -236,16 +239,18 @@
             type="image/jpg"
             srcset="images/fast.jpg 1x, images/fast@2x.jpg 2x"
           />
-          <img class="feature__image" src="images/fast@2x.jpg" alt="" />
+          <img class="feature__image" src="images/fast@2x.webp" alt="" />
         </picture>
       </article>
 
       <article class="grid grid--cols-2 feature">
         <div class="feature__content" data-aos="fade-right">
           <span class="icon-container">
-            <svg class="icon icon--primary">
-              <use :href="images/sprite.svg#wordpress"></use>
-            </svg>
+            <img
+              src="/images/wordpress.svg"
+              alt=""
+              class="icon icon--primary"
+            />
           </span>
           <h3 class="feature__heading">Wordpress Made Easy</h3>
           <p>
@@ -263,16 +268,14 @@
             type="image/jpg"
             srcset="images/wordpress.jpg 1x, images/wordpress@2x.jpg 2x"
           />
-          <img class="feature__image" src="images/wordpress@2x.jpg" alt="" />
+          <img class="feature__image" src="images/wordpress@2x.webp" alt="" />
         </picture>
       </article>
 
       <article class="grid grid--cols-2 feature">
         <div class="feature__content" data-aos="fade-left">
           <span class="icon-container">
-            <svg class="icon icon--primary">
-              <use :href="images/sprite.svg#clock"></use>
-            </svg>
+            <img src="/images/clock.svg" alt="" class="icon icon--primary" />
           </span>
           <h3 class="feature__heading">24/7 Expert Support</h3>
           <p>
@@ -290,7 +293,7 @@
             type="image/jpg"
             srcset="images/support.jpg 1x, images/support@2x.jpg 2x"
           />
-          <img class="feature__image" src="images/support@2x.jpg" alt="" />
+          <img class="feature__image" src="images/support@2x.webp" alt="" />
         </picture>
       </article>
     </section>
@@ -301,22 +304,20 @@
         <h2>User-friendly Control Panel</h2>
       </header>
       <div class="container grid grid--cols-2">
-        <picture class="block-showcase__image" data-aos="slide-right">
+        <picture class="block-showcase__image" data-aos="fade-up">
           <source
             type="image/webp"
             srcset="images/ipad.webp 1x, images/ipad@2x.webp" />
           <source
             type="image/png"
             srcset="images/ipad.png 1x, images/ipad@2x.png" />
-          <img src="images/ipad.png" alt=""
+          <img src="images/ipad@2x.webp" alt=""
         /></picture>
         <ul class="list" data-aos="slide-up">
           <li>
             <div class="media">
               <div class="media__image">
-                <svg class="icon icon--primary">
-                  <use :href="images/sprite.svg#snap"></use>
-                </svg>
+                <img src="images/snap.svg" alt="" class="icon icon--primary" />
               </div>
               <div class="media__body">
                 <h3 class="media__title">Easy Start & Managed Updates</h3>
@@ -332,9 +333,11 @@
           <li>
             <div class="media">
               <div class="media__image">
-                <svg class="icon icon--primary">
-                  <use :href="images/sprite.svg#growth"></use>
-                </svg>
+                <img
+                  src="images/growth.svg"
+                  alt=""
+                  class="icon icon--primary"
+                />
               </div>
               <div class="media__body">
                 <h3 class="media__title">Staging, GIT & WP-CLI</h3>
@@ -350,9 +353,11 @@
           <li>
             <div class="media">
               <div class="media__image">
-                <svg class="icon icon--primary">
-                  <use :href="images/sprite.svg#wordpress"></use>
-                </svg>
+                <img
+                  src="images/wordpress.svg"
+                  alt=""
+                  class="icon icon--primary"
+                />
               </div>
               <div class="media__body">
                 <h3 class="media__title">Dynamic Caching & More</h3>
@@ -382,13 +387,15 @@
           <div class="grid grid--cols-2">
             <div class="testimonial__image">
               <img
-                src="images/testimonial.jpg"
+                src="images/testimonial.webp"
                 alt="A happy, smiling customer"
               />
               <span class="icon-container icon-container--accent">
-                <svg class="icon icon--white icon--small">
-                  <use :href="images/sprite.svg#quotes"></use>
-                </svg>
+                <img
+                  src="images/quotes.svg"
+                  alt=""
+                  class="icon icon--white icon--small"
+                />
               </span>
             </div>
             <blockquote class="quote">
@@ -400,9 +407,11 @@
               <footer>
                 <div class="media">
                   <div class="media__image">
-                    <svg class="icon icon--primary quote__line">
-                      <use :href="images/sprite.svg#line"></use>
-                    </svg>
+                    <img
+                      src="images/line.svg"
+                      alt=""
+                      class="icon icon--primary quote__line"
+                    />
                   </div>
                   <div class="media__body">
                     <h3 class="media__title quote__author">Jane Doe</h3>
@@ -510,7 +519,9 @@
 
         <div class="footer__brand">
           <img src="images/Speedify-logo.png" alt="" class="icon" />
-          <p class="footer__copyright">&copy; 2022 Fastify - Alkin Maystorov</p>
+          <p class="footer__copyright">
+            &copy; 2022 Speedify - Alkin Maystorov
+          </p>
         </div>
       </div>
     </footer>
