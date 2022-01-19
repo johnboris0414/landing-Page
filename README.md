@@ -10,4 +10,4 @@ A very fast and responsive website template themed around a cloud hosting servic
 
 3. JavaScript
 
-![alt text](https://github.com/SirDev97/the-horde/blob/main/src/assets/dashboard.jpeg?raw=true)
+![alt text](https://github.com/SirDev97/speedify/blob/main/images/preview.jpeg?raw=true)
