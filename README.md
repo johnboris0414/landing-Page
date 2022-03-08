@@ -6,7 +6,7 @@ Speedify is a blazing fast and responsive landing page
 
 - [Overview 👁‍🗨](#overview)
 
-- [The project 🧾](#the-project)
+  - [The project 🧾](#the-project)
 
 - [Performance ⚡](#performance)
 
@@ -14,7 +14,7 @@ Speedify is a blazing fast and responsive landing page
 
 - [My process ⚙](#my-process)
 
-- [Built with 🛠](#built-with)
+  - [Built with 🛠](#built-with)
 
 - [Author 🖋](#author)
 
