@@ -60,4 +60,4 @@ Speedify is a blazing fast and responsive landing page
 
 - Frontend Mentor - [@SirDev97](https://www.frontendmentor.io/profile/SirDev97)
 
-- Website - [@Alkin Maystorov](https://www.alkinmaystorov.com)
+- Website - [Alkin Maystorov](https://www.alkinmaystorov.com)
